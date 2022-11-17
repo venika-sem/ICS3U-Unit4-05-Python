@@ -16,7 +16,7 @@ def main():
                 continue
             result = result + number
         print("\nThe sum of positive numbers is {}.".format(result))
-    except Exception:
+    except ValueError:
         print("\nThis input is invalid, please, insert a number.")
     finally:
         print("\nDone.")
